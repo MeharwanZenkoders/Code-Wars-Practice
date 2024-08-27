@@ -12,6 +12,7 @@ function toWeirdCase(str){
     else{
         result += str[i].toLowerCase();
     }
+    
     if(str[i] === ' '){
         count=0;
     }else{
